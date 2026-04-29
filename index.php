@@ -47,7 +47,7 @@ $query = mysqli_query($con, $sql);
                 <?php while ($row = mysqli_fetch_array($query)): ?>
                     <tr>
                         <th><?= $row['id_articulo']   ?></th>
-                        <th><?= $row['producto']   ?></th>
+                        <th><?= $row['nombre']   ?></th>
                         <th><?= $row['precio']   ?></th>
                         <th><?= $row['stock']   ?></th>
 
