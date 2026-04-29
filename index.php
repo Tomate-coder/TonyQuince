@@ -18,9 +18,10 @@ $query = mysqli_query($con, $sql);
 
 <body>
     <div>
+        <form action="insert_artc.php" method="POST">
         <h1>AGREGAR UN ARTÍCULO</h1>
-        <form action="">
-            <input type="text" name="producto">
+
+            <input type="text" name="nombre">
             <input type="number" name="precio">
             <input type="number" name="stock">
 
