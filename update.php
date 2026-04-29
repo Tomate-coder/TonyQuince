@@ -5,7 +5,7 @@ $con = connection();
 
 $id = $_GET["id"];
 
-$sql = "SELECT * FROM articulos WHERE  id = '$id";
+$sql = "SELECT * FROM articulos WHERE  id_articulo = $id";
 
 $query = mysqli_query($con, $sql);
 $row = mysqli_fetch_array($query);
