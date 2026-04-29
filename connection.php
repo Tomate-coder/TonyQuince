@@ -2,8 +2,8 @@
 
 function connection(){
     $host = "localhost";
-    $user = "root";
-    $pass = "";
+    $user = "dev_user";
+    $pass = "User*2026";
 
     $bd = "TonyQuince";
 
