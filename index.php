@@ -21,9 +21,9 @@ $query = mysqli_query($con, $sql);
         <form action="insert_artc.php" method="POST">
         <h1>AGREGAR UN ARTÍCULO</h1>
 
-            <input type="text" name="nombre">
-            <input type="number" name="precio">
-            <input type="number" name="stock">
+            <input type="text" name="nombre" placeholder="Nombre">
+            <input type="number" name="precio" placeholder="Precio">
+            <input type="number" name="stock" placeholder="Stock">
 
             <input type="submit" value="Agregar Producto">
         </form>
@@ -51,8 +51,8 @@ $query = mysqli_query($con, $sql);
                         <th><?= $row['precio']   ?></th>
                         <th><?= $row['stock']   ?></th>
 
-                        <th><a href="">Editar</a></th>
-                        <th><a href="">Eliminar</a></th>
+                        <th><a href="update.php?id=<?= $row['id_articulo']   ?>">Editar</a></th>
+                        <th><a href="delete_artcl.php?id=<?= $row['id_articulo']   ?>">Eliminar</a></th>
                     </tr>
                 <?php endwhile; ?>
             </tbody>
