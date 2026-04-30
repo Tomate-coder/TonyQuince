@@ -1,64 +1,50 @@
-<?php
-include("connection.php");
-
-$con = connection();
-
-$sql = "SELECT * FROM articulos";
-$query = mysqli_query($con, $sql);
-?>
-
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Papelerías TONY - Inicio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <div>
-        <form action="insert_artc.php" method="POST">
-        <h1>AGREGAR UN ARTÍCULO</h1>
+    <nav class="navbar">
+        <div class="logo">Papelerías <span class="text-green">TONY</span></div>
+        <ul class="nav-links">
+            <li><a href="#mision">Misión y Visión</a></li>
+            <li><a href="#valores">Valores</a></li>
+            <li><a href="login.php" class="btn-sm btn-blue">Iniciar Sesión</a></li>
+        </ul>
+    </nav>
 
-            <input type="text" name="nombre" placeholder="Nombre">
-            <input type="number" name="precio" placeholder="Precio">
-            <input type="number" name="stock" placeholder="Stock">
+    <header class="hero">
+        <h1>Bienvenido a Papelerías TONY</h1>
+        <p>Todo lo que necesitas para tu oficina y escuela en un solo lugar.</p>
+    </header>
 
-            <input type="submit" value="Agregar Producto">
-        </form>
-    </div>
+    <section id="mision" class="mv-section">
+        <div class="mv-container">
+            <div class="card border-blue">
+                <h3 class="text-blue">Nuestra Misión</h3>
+                <p>Ofrecer el surtido más amplio de artículos de papelería con la mejor calidad y precio del mercado.</p>
+            </div>
+            <div class="card border-green">
+                <h3 class="text-green">Nuestra Visión</h3>
+                <p>Ser la cadena líder en soluciones escolares y de oficina en todo el país para el año 2030.</p>
+            </div>
+        </div>
+    </section>
 
-    <div>
-        <h2>Articulos</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>ID</th>
-                    <th>Nombre</th>
-                    <th>Precio</th>
-                    <th>Stock</th>
+    <section id="valores" class="values-section bg-light">
+        <h2 class="section-title text-blue">Nuestros Valores</h2>
+        <div class="crud-container" style="justify-content: center; gap: 20px;">
+            <div class="card"><strong>Honestidad</strong></div>
+            <div class="card"><strong>Servicio</strong></div>
+            <div class="card"><strong>Innovación</strong></div>
+            <div class="card"><strong>Compromiso</strong></div>
+        </div>
+    </section>
 
-                    <th></th>
-                    <th></th>
-                </tr>
-            </thead>
-            <tbody>
-                <?php while ($row = mysqli_fetch_array($query)): ?>
-                    <tr>
-                        <th><?= $row['id_articulo']   ?></th>
-                        <th><?= $row['nombre']   ?></th>
-                        <th><?= $row['precio']   ?></th>
-                        <th><?= $row['stock']   ?></th>
-
-                        <th><a href="update.php?id=<?= $row['id_articulo']   ?>">Editar</a></th>
-                        <th><a href="delete_artcl.php?id=<?= $row['id_articulo']   ?>">Eliminar</a></th>
-                    </tr>
-                <?php endwhile; ?>
-            </tbody>
-
-        </table>
-    </div>
+    <footer>
+        <p>&copy; 2026 Papelerías TONY. Todos los derechos reservados.</p>
+    </footer>
 </body>
-
 </html>
