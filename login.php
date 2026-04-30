@@ -4,7 +4,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $user = $_POST["usuario"];
     $pass = $_POST["password"];
 
-    if ($user == "24160793@itoaxaca.edu.mx" && $pass == "24160793") {
+    if ($user == "24160793@itoaxaca.edu.mx" && $pass == "24160793TSO") {
         header("Location: gestion.php");
         exit();
     } else {
