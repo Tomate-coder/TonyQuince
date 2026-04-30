@@ -12,7 +12,7 @@ $sql = "INSERT INTO articulos (nombre, precio, stock) VALUES('$name', '$precio',
 
 $query = mysqli_query($con, $sql);
 if($query) {  
-    Header("Location: index.php");
+    Header("Location: gestion.php");
 };
 
 ?>
