@@ -12,5 +12,5 @@ $sql = "UPDATE articulos SET nombre ='$name', precio= '$precio', stock = '$stock
 
 $query = mysqli_query($con, $sql);
 if ($query) {
-    Header("Location: index.php");
+    Header("Location: gestion.php");
 };
