@@ -48,21 +48,21 @@
         <div class="mv-container" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px; margin-top: 30px;">
             
             <div class="card border-blue" style="width: 280px; text-align: center; padding: 20px;">
-                <img src="ruta/cuadernos.jpg" alt="Cuadernos" style="width: 100%; border-radius: 8px; margin-bottom: 15px;">
+                <img src="imagenes/hojas.jpg" alt="Cuadernos" style="width: 100%; border-radius: 8px; margin-bottom: 15px;">
                 <h3 class="text-blue">Regreso a Clases</h3>
                 <p>Encuentra los mejores cuadernos, mochilas y útiles escolares al mejor precio.</p>
                 <a href="#" class="btn-sm btn-blue" style="display: inline-block; margin-top: 15px;">Ver Ofertas</a>
             </div>
 
             <div class="card border-green" style="width: 280px; text-align: center; padding: 20px;">
-                <img src="ruta/oficina.jpg" alt="Oficina" style="width: 100%; border-radius: 8px; margin-bottom: 15px;">
+                <img src="imagenes/laptop.jpg" alt="Oficina" style="width: 100%; border-radius: 8px; margin-bottom: 15px;">
                 <h3 class="text-green">Mobiliario de Oficina</h3>
                 <p>Sillas ergonómicas, escritorios y todo lo necesario para tu espacio de trabajo.</p>
                 <a href="#" class="btn-sm btn-blue" style="display: inline-block; margin-top: 15px;">Ver Catálogo</a>
             </div>
 
             <div class="card border-blue" style="width: 280px; text-align: center; padding: 20px;">
-                <img src="ruta/arte.jpg" alt="Arte y Dibujo" style="width: 100%; border-radius: 8px; margin-bottom: 15px;">
+                <img src="imagenes/cuaderno.jpg" alt="Arte y Dibujo" style="width: 100%; border-radius: 8px; margin-bottom: 15px;">
                 <h3 class="text-blue">Arte y Creatividad</h3>
                 <p>Pinturas, pinceles, lienzos y materiales profesionales para artistas.</p>
                 <a href="#" class="btn-sm btn-blue" style="display: inline-block; margin-top: 15px;">Descubrir más</a>
