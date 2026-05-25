@@ -43,32 +43,117 @@
         </div>
     </section>
     <section id="nuevo-apartado" class="mv-section">
-        <h2 class="section-title text-blue" style="text-align: center;">Nuestros Productos Destacados</h2>
-        
-        <div class="mv-container" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px; margin-top: 30px;">
-            
-            <div class="card border-blue" style="width: 280px; text-align: center; padding: 20px;">
-                <img src="imagenes/hojas.png" alt="Cuadernos" style="width: 100%; border-radius: 8px; margin-bottom: 15px;">
-                <h3 class="text-blue">Regreso a Clases</h3>
-                <p>Encuentra los mejores cuadernos, mochilas y útiles escolares al mejor precio.</p>
-                <a href="#" class="btn-sm btn-blue" style="display: inline-block; margin-top: 15px;">Ver Ofertas</a>
-            </div>
+        <h2>Los más buscados</h2>
 
-            <div class="card border-green" style="width: 280px; text-align: center; padding: 20px;">
-                <img src="imagenes/laptop.png" alt="Oficina" style="width: 100%; border-radius: 8px; margin-bottom: 15px;">
-                <h3 class="text-green">Mobiliario de Oficina</h3>
-                <p>Sillas ergonómicas, escritorios y todo lo necesario para tu espacio de trabajo.</p>
-                <a href="#" class="btn-sm btn-blue" style="display: inline-block; margin-top: 15px;">Ver Catálogo</a>
-            </div>
+<div class="productos-container">
 
-            <div class="card border-blue" style="width: 280px; text-align: center; padding: 20px;">
-                <img src="imagenes/cuaderno.png" alt="Arte y Dibujo" style="width: 100%; border-radius: 8px; margin-bottom: 15px;">
-                <h3 class="text-blue">Arte y Creatividad</h3>
-                <p>Pinturas, pinceles, lienzos y materiales profesionales para artistas.</p>
-                <a href="#" class="btn-sm btn-blue" style="display: inline-block; margin-top: 15px;">Descubrir más</a>
-            </div>
+    <div class="producto-card">
+        <div class="favorito">♡</div>
 
+        <img src="https://via.placeholder.com/180x170"
+             class="producto-img">
+
+        <div class="codigo">Código: 09730008</div>
+
+        <div class="nombre">
+            Papel Bond Tamaño Carta Blanco de 37 kg con 500 Hojas
         </div>
+
+        <div class="precio-antiguo">$94.20</div>
+
+        <div class="precio-row">
+            <div class="precio">$78.90</div>
+            <div class="descuento">-16%</div>
+        </div>
+
+        <div class="acciones">
+            <div class="contador">
+                <button>-</button>
+                <span>1</span>
+                <button>+</button>
+            </div>
+
+            <button class="btn-comprar">
+                Comprar
+            </button>
+
+            <button class="btn-carrito">
+                🛒
+            </button>
+        </div>
+    </div>
+
+    <div class="producto-card">
+        <div class="favorito">♡</div>
+
+        <img src="https://via.placeholder.com/180x170"
+             class="producto-img">
+
+        <div class="codigo">Código: 00240060</div>
+
+        <div class="nombre">
+            Cartulina Bristol Express de 48.8 kg
+        </div>
+
+        <div class="precio-row">
+            <div class="precio" style="color:#1f4e8c;">
+                $2.60
+            </div>
+        </div>
+
+        <div class="acciones">
+            <div class="contador">
+                <button>-</button>
+                <span>1</span>
+                <button>+</button>
+            </div>
+
+            <button class="btn-comprar">
+                Comprar
+            </button>
+
+            <button class="btn-carrito">
+                🛒
+            </button>
+        </div>
+    </div>
+
+    <div class="producto-card">
+        <div class="favorito">♡</div>
+
+        <img src="https://via.placeholder.com/180x170"
+             class="producto-img">
+
+        <div class="codigo">Código: 09220111</div>
+
+        <div class="nombre">
+            Cuaderno Espiral Profesional de 100 hojas
+        </div>
+
+        <div class="precio-row">
+            <div class="precio" style="color:#1f4e8c;">
+                $23.90
+            </div>
+        </div>
+
+        <div class="acciones">
+            <div class="contador">
+                <button>-</button>
+                <span>1</span>
+                <button>+</button>
+            </div>
+
+            <button class="btn-comprar">
+                Comprar
+            </button>
+
+            <button class="btn-carrito">
+                🛒
+            </button>
+        </div>
+    </div>
+
+</div>
     </section>
 
     <footer>
