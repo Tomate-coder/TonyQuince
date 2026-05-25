@@ -158,6 +158,7 @@ input:focus {
 }
 .btn-blue {
   background-color: var(--tony-blue);
+  color: var(--white);
 }
 .btn-green {
   background-color: var(--tony-green);
